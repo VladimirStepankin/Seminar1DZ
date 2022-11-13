@@ -7,9 +7,9 @@ Console.Write("Введите второе число:");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a > b)
 {
-    Console.WriteLine("max=" + a);
+    Console.WriteLine(a + " больше " + b);
 }
 else
 {
-    Console.WriteLine("max=" + b);
+    Console.WriteLine(a + " меньше " + b);
 }
